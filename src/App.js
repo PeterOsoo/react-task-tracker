@@ -1,7 +1,8 @@
 import "./App.css"
+import Tasks from "./components/Tasks"
 
 const App = () => {
-	return <h1>Task tracker</h1>
+	return <Tasks />
 }
 
 export default App
