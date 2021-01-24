@@ -4,7 +4,6 @@ const Tasks = () => {
 	const date = new Date()
 	return (
 		<div>
-			<h1>Task tracker</h1>
 			<h3>go to shop</h3>
 			<p> {date.getFullYear()} </p>
 			<p>

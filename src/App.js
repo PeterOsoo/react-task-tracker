@@ -1,8 +1,14 @@
 import "./App.css"
+import Header from "./components/Header"
 import Tasks from "./components/Tasks"
 
 const App = () => {
-	return <Tasks />
+	return (
+		<div className="container">
+			<Header />
+			<Tasks />
+		</div>
+	)
 }
 
 export default App
